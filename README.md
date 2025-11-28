@@ -18,27 +18,49 @@ The system follows a simple but powerful Planner → Evaluator → Generator pat
 
  1. Project Structure
 kasparro-agentic-fb-analyst-kul-bhushan-kotagiri/
+
 │
+
 ├── data/
+
 │   └── synthetic_fb_ads_undergarments.csv
+
 │
+
 ├── src/
+
 │   ├── run.py
+
 │   ├── orchestrator.py
+
 │   └── agents/
+
 │       ├── data_agent.py
+
 │       ├── insight_agent.py
+
 │       ├── evaluator_agent.py
+
 │       ├── creative_agent.py
+
 │       └── planner.py
+
 │
+
 ├── reports/
+
 │   ├── insights.json
+
 │   ├── creatives.json
+
 │   └── report.md
+
 │
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 
